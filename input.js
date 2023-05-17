@@ -13,16 +13,22 @@ const setupInput = function (conn) {
 
 
 const handleUserInput = function(key) {
-  if (key === "t") {
+  if (key === "w") {
     return connection.write("Move: up");
-  } else if (key === "f") {
+  } else if (key === "a") {
     return connection.write("Move: left");
-  } else if (key === "g") {
+  } else if (key === "s") {
     return connection.write("Move: down");
-  } else if (key === "h") {
+  } else if (key === "d") {
     return connection.write("Move: right");
   } else if (key === '\u0003') {
     (process.exit());
+  } else if (key === "k") {
+    return connection.write("Say: I'm the SSSSNAKE");
+  } else if (key === "l") {
+    return connection.write("Say: Nice try bud");
+  } else if (key === "j") {
+    return connection.write("Say: Wanna play snake??");
   }
 };
 
