@@ -1,5 +1,3 @@
-
-
 const IP = "172.21.48.3";
 const PORT = 50541;
 const movementObj = {
@@ -10,7 +8,7 @@ const movementObj = {
   j : "Say: Wanna play snake??",
   k : "Say: I'm the SSSSNAKE",
   l : "Say: Nice try bud"
-}
+};
 
 
 module.exports = {
