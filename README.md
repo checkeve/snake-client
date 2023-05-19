@@ -8,8 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Image of the snake game in action"](./snake-screenshot.png?raw=true)
-!["Image of the terminal with a snarky message after losing"](./snake-terminal-screenshot.png?raw=true)
+!["Image of the snake game in action"](/snake-screenshot.png?raw=true)
+!["Image of the terminal with a snarky message after losing"](/snake-terminal-screenshot.png?raw=true)
 
 
 ## Getting Started
